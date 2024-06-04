@@ -22,12 +22,12 @@ function App() {
       <BrowserRouter>
           <Header />
           <Routes>
-              <Route path="/" element={<Inicio/>} />
-              <Route path="/tienda" element={<Tienda /> } />
-              <Route path="/laptop" element={<Laptop />} />
-              <Route path="/movil" element={<Movil  />} />
-              <Route path="/busquedas" element={<Busquedas  />} />
-              <Route path="/categorias/:id" element={<Categorias />} />
+              <Route path="/dummyjsondaysiuiEt2" element={<Inicio/>} />
+              <Route path="/dummyjsondaysiuiEt2/tienda" element={<Tienda /> } />
+              <Route path="/dummyjsondaysiuiEt2/laptop" element={<Laptop />} />
+              <Route path="/dummyjsondaysiuiEt2/movil" element={<Movil  />} />
+              <Route path="/dummyjsondaysiuiEt2/busquedas" element={<Busquedas  />} />
+              <Route path="/dummyjsondaysiuiEt2/categorias/:id" element={<Categorias />} />
               <Route path="*" element={<Inicio/>} />
           </Routes>
           <Footer/>
