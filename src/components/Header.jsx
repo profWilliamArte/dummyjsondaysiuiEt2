@@ -45,10 +45,10 @@ const Header = () => {
           </div>
           <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">
-              <li><Link to="/">Inicio</Link></li>
-              <li><Link to="/movil">Movil</Link></li>
-              <li><Link to="/laptop">Laptops</Link></li>
-              <li><Link to="/tienda">Tienda</Link></li>
+              <li><Link to="/dummyjsondaysiuiEt2">Inicio</Link></li>
+              <li><Link to="/dummyjsondaysiuiEt2/movil">Movil</Link></li>
+              <li><Link to="/dummyjsondaysiuiEt2/laptop">Laptops</Link></li>
+              <li><Link to="/dummyjsondaysiuiEt2/tienda">Tienda</Link></li>
               <li>
                   <details>
                   <summary>Categorias</summary>
