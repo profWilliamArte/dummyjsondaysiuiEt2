@@ -1,0 +1,56 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+details {
+
+  z-index: 100 !important;
+ 
+  
+}
+details li{
+  width: 180px;
+  height: 25px;
+}
+.grid .card:hover{
+  cursor: pointer;
+
+}
+.badge-grande {
+  font-size: 2rem; /* Ajusta el tamaño de fuente según tus necesidades */
+  padding: 20px 10px;
+  margin: 25px 35px;
+}
+
+.modal {
+  z-index: 5000 !important;
+}
+.modal-box {
+  z-index: 5000 !important;
+}
+.swal2-container{
+  z-index: 10000 !important;
+}
+
+.swal2-popup {
+  z-index: 10000 !important;
+}
+
+.swal2-confirm-button {
+  z-index: 10001 !important;
+}
+
+.swal2-cancel-button {
+  z-index: 10001 !important;
+}
